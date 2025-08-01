@@ -1,0 +1,15 @@
+
+#add-task-button {
+      width: 164px;
+      height: 48px;
+      border-radius: 24px;
+      background-color: #635FC7;
+      position:fixed;
+      top: 20px;
+      left: 915px;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      color: #FFFFFF;
+      border: none;
+}
