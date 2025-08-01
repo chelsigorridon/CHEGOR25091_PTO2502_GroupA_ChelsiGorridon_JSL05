@@ -12,3 +12,7 @@ function loadTasks() {
 function saveTasks(tasks) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(tasks));
 }
+
+function generateId() {
+  return Date.now();
+}
