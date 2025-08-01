@@ -9,10 +9,12 @@ A Task Board with Local Storage and Task Creation is a simple web app that allow
 
 ## Key Features:
 
-- Click on a task and a interactive modal will pop up. 
-- Enter or edit a Task Title, Description, and Status via modal.
+- Click on Add New task and a interactive modal will pop up. 
+- Enter a Task Title, Description, and Status via modal.
 - Accepts only valid statuses: "TODO", "DOING", or "DONE".
 - Automatically corrects letter casing.
+- All fields must be filled in to create a new task 
+- task will save to local storage and show on the main screen
 
 --- 
 
@@ -30,9 +32,11 @@ A Task Board with Local Storage and Task Creation is a simple web app that allow
 
 1. Go into the Kanban Website
 2. All the task should be under column to , doing , done
-3. Click on a task and the modal will pop up 
-6. You should be able to edit your task name , description and change your status. 
+3. Click "Add New task" button and the modal will pop up 
+6. You should be able to add your task name , description and change your status. 
 7. Click on the red x in the corner to exit the modal 
+8. Click on create task button to save it and add it to the main screen
+
 
 
 ---
