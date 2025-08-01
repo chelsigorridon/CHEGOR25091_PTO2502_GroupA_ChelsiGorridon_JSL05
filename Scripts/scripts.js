@@ -16,3 +16,10 @@ function saveTasks(tasks) {
 function generateId() {
   return Date.now();
 }
+
+document.getElementById("add-task-button").addEventListener("click", () => {
+  document.getElementById("task-title").value = "";
+  document.getElementById("task-desc").value = "";
+  document.getElementById("task-status").value = "todo";
+  document.getElementById("task-modal").showModal();
+});
