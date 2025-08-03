@@ -1,4 +1,3 @@
-
 // Key used to store and retrieve tasks from localStorage
 const STORAGE_KEY = "my-task-list";
 
@@ -19,6 +18,7 @@ function saveTasks(tasks) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(tasks));
 }
 
+
 /**
  * Generates a unique ID for each task based on the current timestamp.
  * @returns {number} A unique task ID
@@ -38,11 +38,11 @@ document.getElementById("add-task-button").addEventListener("click", () => {
   document.getElementById("task-modal").showModal();
 });
 
+
 // Handle "Close" button in the modal
 // Closes the modal without saving
 
 document.getElementById("close-modal-btn").addEventListener("click", () => {
   document.getElementById("task-modal").close();
 });
-
 
